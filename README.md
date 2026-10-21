@@ -35,7 +35,7 @@ Analysis queries are in [`sql/02_EDA.sql`](sql/02_EDA.sql). Key questions explor
 While trying to find the MAX(total_laid_off), I found the column was imported as text rather than a number, so aggregate functions weren't behaving correctly. I corrected this along with funds_raised.
 
 ### Key Findings
-- The largest single layoff event was Amazon, with 59,560 employees laid off.
+- Amazon had the most total layoffs, with 59,560 employees across the dataset.
 - Britishvolt raised 2.4 billion in funding before laying off 100% of their employees.
 - Industries labeled as 'other' and 'Retail' had the highest total layoffs across the dataset.
 - The dataset spans from '2020-03-11' to '2026-09-08'.
