@@ -45,7 +45,7 @@ While trying to find the MAX(total_laid_off), I found the column was imported as
 ### Power BI Dashboard
 The dashboard (in powerbi/) visualizes the findings above. To view it, download layoffs_dashboard.pbix and open it in Power BI Desktop (Windows). It includes:
 - Top 5 companies by total layoffs (bar chart)
-- Top 5 industries by total layoffs, excluding the "Other" catch-all (bar chart)
+- Top 5 industries by total layoffs (bar chart)
 - Monthly layoffs trend from 2020 to September 2026 (line chart), with a rolling total
 - Top 5 companies by year with a year slicer, mirroring the DENSE_RANK() query
 
