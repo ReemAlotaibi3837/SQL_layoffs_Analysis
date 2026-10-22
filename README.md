@@ -49,6 +49,12 @@ The dashboard (in powerbi/) visualizes the findings above. To view it, download 
 - Monthly layoffs trend from 2020 to September 2026 (line chart), with a rolling total
 - Top 5 companies by year with a year slicer, mirroring the DENSE_RANK() query
 
+### Top 5 Companies by Total Layoffs
+<img src="powerbi/top5_companies.png" width="600">
+
+### Monthly Layoffs Trend
+<img src="powerbi/monthly_layoffs_trend.png" width="600">
+
 
 ## Acknowledgments
 Cleaning and EDA approach based on [Alex The Analyst](https://youtu.be/4UltKCnnnTA). Dataset from [Layoffs Dataset - Kaggle](https://www.kaggle.com/datasets/swaptr/layoffs-2022). 
