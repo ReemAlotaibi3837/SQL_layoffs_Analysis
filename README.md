@@ -42,6 +42,14 @@ While trying to find the MAX(total_laid_off), I found the column was imported as
 - 2023 had the highest total layoffs at 265,660 total.
 - The top 5 companies by layoffs varied significantly year to year, with Uber leading in 2020 and Meta leading in 2022.
 
+### Power BI Dashboard
+The dashboard (in powerbi/) visualizes the findings above. To view it, download layoffs_dashboard.pbix and open it in Power BI Desktop (Windows). It includes:
+- Top 5 companies by total layoffs (bar chart)
+- Top 5 industries by total layoffs, excluding the "Other" catch-all (bar chart)
+- Monthly layoffs trend from 2020 to September 2026 (line chart), with a rolling total
+- Top 5 companies by year with a year slicer, mirroring the DENSE_RANK() query
+
+
 ## Acknowledgments
 Cleaning and EDA approach based on [Alex The Analyst](https://youtu.be/4UltKCnnnTA). Dataset from [Layoffs Dataset - Kaggle](https://www.kaggle.com/datasets/swaptr/layoffs-2022). 
 
